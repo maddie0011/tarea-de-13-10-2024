@@ -1,0 +1,111 @@
+.contenedor {
+    padding: 5px;
+    text-align: center;
+    font-family: fantasy;
+    background-color: rgb(130, 138, 148);
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: "header    header"
+                         "nav          nav"
+                         "contenido    ads"
+                         "footer    footer";
+}
+.contenedor .header {
+    background-color: brown;
+    color: rgb(17, 17, 53);
+    grid-area: header ;
+}
+.contenedor .nav{
+    background-color:  rgb(130, 138, 148);
+    grid-area: nav ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contenedor .contenido{
+    background-color:rgb(130, 138, 148);
+    grid-area: contenido;
+}
+.contenedor .ads {
+    background-color: rgb(130, 138, 148);
+    grid-area: ads;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.contenedor .footer {
+    background-color: rgb(130, 138, 148);
+    grid-area:footer ;
+    text-align: left;
+}
+
+.contenedor1 {
+
+    text-align: center;
+    font-family: fantasy;
+    background-color: rgb(43, 46, 44);
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas:
+     "article    aside"            
+     "footer     foooter";
+}
+.contenedor1 .article{
+    padding: 14px;
+    grid-area: article;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor1 .aside{ 
+    grid-area: aside;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor1 .footer{
+    grid-area: footer;
+}
+
+.contenedor2 {
+    padding: 10px;
+    font-family: fantasy;
+    background-color: rgb(126, 155, 190);
+    display: grid;
+    grid-template-areas: "header    header"
+                         "contenido ads";
+}
+.contenedor2 .header {
+    background-color: rgb(7, 5, 5);
+    grid-area: header ;
+    text-align:center;
+    color: aliceblue;
+
+}
+.contenedor2 .contenido{
+    background-color:rgb(130, 138, 148);
+    grid-area: contenido;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor2 .ads {
+    background-color: rgb(130, 138, 148);
+    grid-area: ads;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenedor3 {
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(0, 0, 0);
+    
+}
+.contenedor3 .header{
+
+    background-color:rgb(7, 60, 124);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor3 .contenido{
+    background-color:rgb(130, 138, 148);
+    background-color: black;
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
